@@ -102,11 +102,11 @@ const typeDefs = gql`
   }
 
   type Instrument {
-    id: String!,
-    year: String!,
-    brand: String!,
-    type: String!,
-    price: String!,
+    id: String!
+    year: String!
+    brand: String!
+    type: String!
+    price: String!
     artistId: String!
   }
 
